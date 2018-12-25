@@ -1,0 +1,29 @@
+
+neo4J DataBase:
+
+https://www.youtube.com/watch?v=GmUisMDbvTY&index=2&t=14s&list=PLxBAMs35_Tu2taGRSfEr_5gElfqIgyg2K
+https://www.youtube.com/watch?v=_6qSSXSMouA&index=3&t=4s&list=PLxBAMs35_Tu2taGRSfEr_5gElfqIgyg2K
+
+https://www.youtube.com/watch?v=1U6iUTV_Dco&index=4&t=444s&list=PLxBAMs35_Tu2taGRSfEr_5gElfqIgyg2K
+
+https://www.youtube.com/watch?v=6M8e16Hx_xA&index=5&t=2s&list=PLxBAMs35_Tu2taGRSfEr_5gElfqIgyg2K
+
+https://www.youtube.com/watch?v=G-ArayUprfA&index=6&t=162s&list=PLxBAMs35_Tu2taGRSfEr_5gElfqIgyg2K
+
+
+Web Services:
+
+https://www.youtube.com/watch?v=TvGLm7BijJY
+
+https://www.guru99.com/comparison-between-web-services.html
+
+https://www.guru99.com/restful-web-services.html
+
+https://dzone.com/articles/web-services-architecture
+
+
+
+Ruby on rails:
+
+How to Use attr_accessor
+railsRuby on Rails GuidesWhat is GitHub? - Definition from WhatIs.comThe "Require" Method in RubyEverything You Need to Know About Nil - RubyGuidesThe Neo4j Developer Manual v3.4difference neo4jneo4jRubyMonk - Interactive Ruby tutorialsNeo4j Tutorialneo4j materialSome Basic and Useful Cypher Queries for Neo4J

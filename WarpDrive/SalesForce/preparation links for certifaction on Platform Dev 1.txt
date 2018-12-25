@@ -1,0 +1,8 @@
+Please follow below link for preparation for DEV1 and go through all topics with real-time implementation:
+http://certification.salesforce.com/SG_CertifiedDeveloper.pdf
+https://www.simplilearn.com/salesforce-platform-developer-1-free-practice-test
+https://www.simplilearn.com/salesforce-platform-developer-1-free-practice-test
+http://www.salesforceben.com/certified-developer-mock-exam/
+http://www.cram.com/flashcards/salesforce-platform-developer-1-7144847
+http://focusonforce.com/salesforce-platform-developer-1-certification-practice-exams/
+http://sfdctrail.com/2016/01/15/salesforce-platform-developer-1-certification-tips/

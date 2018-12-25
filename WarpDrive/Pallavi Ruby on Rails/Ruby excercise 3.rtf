@@ -1,0 +1,243 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 1. Write a ruby program to convert numbers to word\
+2. Write a ruby program to find a given input is number or string?\
+  * Shouldn't use predefined methods\
+  * No need to check for fraction.\
+  Ex:\
+    '123232' ==> number\
+    'Rs 123' ==> string\
+    '-1213' ==> number\
+    '+1213' ==> number\
+    'test' ==> string\
+\
+3. Write a ruby program to print numbers in comma seperated.\
+  Ex:\
+    '123.232' => 123.23\
+    '1231' => '1,231.00'\
+    '12345' => '12,345.00'\
+    '1234567' => '1,234,567.00'\
+\
+4. Write a ruby program to find longest line in the given input.\
+\
+5. Write a ruby program to emulate calculator functonality\
+  Ex:\
+    Enter number a\
+    Enter number b\
+    Choose any one of the following operator\
+    1. Add\
+    2. Subtract\
+    3. Multiply\
+    4. Division\
+    5. Modulo\
+    6. Exit\
+\
+    It should keep working till user presses 6. For invalid options, script should print a alert message and continue to ask digits.\
+    it should handle 'divide by zero error'\
+\
+  6. Write a ruby program to emulate #to_i()\
+\
+  7. Write a ruby program to remove single line ruby comment. Input of this script will be a ruby code.\
+    It shouldn't remove comment withing single/double quotes.\
+\
+===============\
+\
+                              Ruby Evaluation - II\
+                              --------------------\
+Total: 75\
+Duration: 2 hrs\
+\
+I. True or False ( 10 x 1 = 10 )\
+----------------------------------------------------------------------------------------------------\
+1. Ruby variables can be used without any declaration\
+2. Variable name itself denotes its scope\
+3. @@_ is valid instance variable\
+4. Name = 'Matz' is a valid example for local variable\
+5. "def even?number;end"  will raise error\
+6. a method returns the value of the last statement executed in the method\
+7. In ruby method, There's no limit to the number of parameters.\
+8. Right to Left is the sequence in which the parameters are put on the stack\
+9. a = 21, 12; puts a # =>  21 true?\
+10. `puts('hello world')` will print 'hello world' on '$>'\
+\
+II. Answer the following questions in details. You are expected to write whatever you know about respective questions (13 x 5 = 65)\
+----------------------------------------------------------------------------------------------------\
+\
+1. What is global variable?\
+2. What is the difference between global variable and Constants\
+3. Description needed for following global variables\
+  $/  # The input record separator (eg #gets). Defaults to newline.\
+  $\\  # The output record separator (eg #print and IO#write). Default is nil.\
+  $0  # Contains the name of the script being executed. May be assignable.\
+\
+$$  # The process number of the Ruby running this script. Read only.\
+\
+$:  # See $LOAD_PATH.\
+$!  # The exception object passed to #raise.\
+\
+4. Explain about predefined Global constants. Give examples\
+\
+5. Explain the difference between ::COLOURS and Colour::NAMES\
+\
+6. What is pseudo variable. Give examples\
+\
+7. Write a ruby program to emulate how 'cat' command  works without any arguments.\
+\
+8. Explain about STDIN, STDOUT and STDERR\
+\
+9. When will you define methods ending with any of these characters "?", "!" and "=" ?\
+\
+10. What is alias method? Explain with an example\
+\
+11. Will the following code raise exception? Explain\
+  def mtd(a=99, b=a+1)\
+   [a, b]\
+  end\
+\
+12. Explain about ruby methods with default arguments\
+\
+13. Explain about splat arugments with examples\
+\
+============\
+\
+\
+Answer all the questions below ( 35 x 2 = 70)\
+==============================================\
+\
+1. Explain about Ruby programming language\
+\
+2. What is the version of ruby your using?, how will you find out?\
+\
+3. How will you print "Hello world" string using options and command line argument?\
+\
+4. How will you create string object ?\
+\
+5. What is the difference between string enclosed by '' and "" ?\
+\
+6. Explain about Ruby comments\
+\
+7. What is Statement delimiter ? What are the Statement delimiters available in Ruby?\
+\
+8.\
+  if a = 1; b = 2; c = 3;  d = 4\
+  e = c + d = b * a\
+  what is the value of e?\
+\
+9. Which of the following is the correct order of evaluation for the given expression?\
+    a = w % x / y * z;\
+  a) % / * =\
+  b) / * % =\
+  c) = % * /\
+  d) * % / =\
+\
+\
+10. c = 2 ^ 3\
+    c = ?\
+\
+11. a = 2\
+    a >> 1 ?\
+    a = 5\
+    a << 1 ?\
+\
+12.\
+   x = 0, y = 2, z = 3;\
+   a = x & y | z;\
+   b = x && y || z\
+   a = ?\
+   b = ?\
+\
+13. x = 5.3 % 2\
+    x = ?\
+\
+14. Which of the following is not an arithmetic operation?\
+    a) a *= 10;\
+    b) a /= 10;\
+    c) a != 10;\
+    d) a %= 10;\
+\
+\
+15. a = 10, b = 5, c = 5;\
+    d = a == (b + c);\
+    d = ??\
+\
+\
+16. x = 3, y = 2;\
+    z = x /= y %= 2;\
+    z = ??\
+\
+17.  x = 3, y = 2;\
+    z = x << 1 > 5;\
+    z = ?\
+\
+18. difference between && and "and" ?\
+\
+\
+19. Which of the following method are accepted for assignment?\
+    a) 5 = a = b = c = d;\
+    b) a = b = c = d = 5;\
+    c) a = b = 5 = c = d;\
+    d) None of the mentioned\
+\
+\
+20. What will be printed out on stdout.\
+  p = 10, q = 20\
+  if (r = p = 5 || q > 20)\
+    puts r\
+  else\
+    puts ("No Output\\n");\
+\
+21.\
+  a = 2 , b = 0;\
+  y = (b == 0) ? a :(a > b) ? (b = 1): a;\
+  y = ?\
+\
+22. Change '-300' to 300\
+\
+23. 1/5 = ?; -1/5 = ?\
+\
+24.\
+    5.0 == 5 ?\
+    5.0.equal?(5) ?\
+\
+25. how will you convert string to numberic?\
+\
+26. What is variable ?\
+\
+27. In Ruby variable is an Object. Is it True ?\
+\
+28.\
+    a = 9\
+    b = a\
+    b = 10\
+    now, b = ?\
+\
+29. a = 'Hello'\
+    b = ' World'\
+    c = a\
+    c = 'Bye'\
+    puts a << b\
+    What will  be printed out?\
+\
+30. a = 10, b = 25\
+    How will you swap a and b values without using any temprory variable.\
+    After swapping, a should be 25 and b should be 10.\
+\
+31. What is keyword ? What is the difference between keywrod & method\
+\
+32. Difference between ==, ===, eql? and equal?\
+\
+33. Write a false program, it should give you the error message "NoMethodError: undefined method `+' for nil:NilClass'`"\
+\
+34. Write a false program to raise any syntax error\
+\
+35. Write a false program to raise an error like "TypeError: can't convert nil into String"\
+\
+\
+\
+Answer All the questions below: (1 x 30)\
+1. Algorithm: the number of trailing zeros in a factorial of a given number\
+}
